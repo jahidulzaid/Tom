@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+
+}
+
+.menu {
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+.hero {
+    background-color: #1f2937;
+}
+
+.hero {
+    width: auto;
+    height: auto;
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.hero-body {
+    color: white;
+    padding: 30px;
+
+}
+
+#img-hero {
+    height: 200px;
+    width: 400px;
+    float: none;
+}
+
+h2 {
+    align-self: center;
+    padding: 10px;
+}
+
+.image-showcase {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+
+    object-fit: cover;
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+    margin: 70px 20px 20px 20px;
+
+
+
+}
+
+.image-showcase-description{
+    padding-top: 20px;
+    border: 0 4px 5px 0 solid rgba(0,0 ,0 ,0.7);
+    
+}
+
+
+#hero-image-showcase {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    border: 5px 10px 300px 10px;
+    padding: 20px 0 200px 0;
+    flex-wrap: wrap;
+    
+}
+
+p a {
+    color: blue;
+}
+
+.card-headline {
+    padding-top: 30px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    padding: 30px 20%;
+    background-color: #a9b0be;
+    /* flex-shrink: none; */
+
+}
+
+.quote>h5 {
+    display: flex;
+    justify-content: right;
+
+}
+
+.signup {
+    margin: 90px 20px;
+    background-color: #3882F6;
+    padding: 30px 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.signup-button {
+    margin: 20px 30px 0 15;
+    padding: 5px 15px;
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: right;
+    background-color: blue;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    border: 2px solid white;
+}
+
+.footer {
+    background-color: #1f2937;
+    margin: 0;
+    text-align: center;
+    padding: 30px;
+    text-decoration: white;
+}
